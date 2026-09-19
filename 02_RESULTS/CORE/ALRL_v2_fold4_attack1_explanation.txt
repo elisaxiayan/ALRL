@@ -1,0 +1,28 @@
+ALRL V2 FOLD-4 ATTACK 1 EXPLANATION
+===================================
+
+Top 10 candidate logical rules:
+#01 weight=6.125871: (141.938 <= AIT502 <= 142.656 OR 261.343 <= AIT503 <= 262.369)
+#02 weight=4.784798: (LIT301 < 800.115 AND LIT301 < 800.115)
+#03 weight=4.592558: (LIT101 > 813.513 AND LIT101 > 813.513)
+#04 weight=3.997354: (LIT101 > 813.513 OR LIT101 > 813.513)
+#05 weight=3.126375: (P101 = 1 OR LIT101 > 813.513)
+#06 weight=3.123405: (250.481 <= PIT501 <= 250.961 OR 250.481 <= PIT501 <= 250.961)
+#07 weight=2.807931: (8.3920 <= AIT202 <= 8.4003 OR 8.3920 <= AIT202 <= 8.4003)
+#08 weight=2.798271: (263.298 <= AIT201 <= 263.650 OR 262.305 <= AIT201 <= 262.689)
+#09 weight=2.722821: (154.550 <= AIT402 <= 155.063 OR 154.550 <= AIT402 <= 155.063)
+#10 weight=2.276554: (330.710 <= AIT203 <= 331.197 OR AIT201 < 169.892)
+
+Independent conditions with training attack match > 0.9:
+- LIT101 > 813.513 (train=1.0000, val=1.0000)
+- 261.343 <= AIT503 <= 262.369 (train=0.9521, val=0.9628)
+- 262.305 <= AIT201 <= 262.689 (train=0.9455, val=0.9415)
+
+Deterministic rule:
+261.343 <= AIT503 <= 262.369 AND LIT101 > 813.513 AND 262.305 <= AIT201 <= 262.689
+
+Validation precision: 0.909091
+Validation recall: 0.904255
+Validation F1: 0.906667
+
+NOTE: actuator states are printed as observed numeric states; no universal ON/OFF mapping is assumed.

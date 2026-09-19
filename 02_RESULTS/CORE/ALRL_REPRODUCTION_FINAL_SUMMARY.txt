@@ -1,0 +1,72 @@
+ALRL REPRODUCTION FINAL SUMMARY
+===============================
+
+1. DATASET
+----------
+Total samples: 47,044
+Classes: 36 (Normal + 35 attack classes)
+Cross-validation: 5 folds
+
+2. ALRL V2 FIVE-FOLD CLASSIFICATION
+-----------------------------------
+Accuracy: 0.9919 ± 0.0011
+Macro Precision: 0.9871 ± 0.0025
+Macro Recall: 0.9824 ± 0.0043
+Macro F1: 0.9844 ± 0.0021
+
+Per-fold Macro F1:
+  Fold 0: 0.9854
+  Fold 1: 0.9838
+  Fold 2: 0.9853
+  Fold 3: 0.9809
+  Fold 4: 0.9864
+
+3. ATTACK-1 CORE LOGICAL RULE
+-----------------------------
+Rule: LIT101 > 813.513 AND MV101 = 2
+
+Training one-vs-rest:
+  Precision: 0.9866
+  Recall: 0.9761
+  F1: 0.9813
+
+Validation one-vs-rest:
+  Precision: 0.9788
+  Recall: 0.9840
+  F1: 0.9814
+  TP / FP / FN: 185 / 4 / 3
+
+The trained logical network contains this direct Stage-1 AND rule.
+
+4. EXPLANATION MODULE
+---------------------
+Mean deterministic-rule precision: 0.8495
+Mean deterministic-rule recall: 0.8867
+Mean deterministic-rule F1: 0.8351
+Mean selected conditions per attack rule: 4.00
+
+5. KNOWLEDGE DISTILLATION
+-------------------------
+LU-IDS-style teacher Macro F1: 0.9949
+Best ALRL V2 student is the no-distillation model.
+
+6. COMPLETED COMPONENTS
+-----------------------
+SWaT preprocessing and class reconstruction: complete
+Binary logical representation: complete
+Single-stage logical learning: complete
+Multistage logical learning: complete
+Prediction module: complete
+5-fold evaluation: complete
+Teacher / KD experiment: complete
+Explanation / logical-rule extraction: complete
+
+Key saved outputs:
+  ALRL_v2_5fold_summary.csv
+  ALRL_v2_5fold_summary.txt
+  ALRL_v2_5fold_runs/
+  ALRL_v2_fold4_candidate_rules.csv
+  ALRL_v2_fold4_condition_matches.csv
+  ALRL_v2_fold4_deterministic_rules.csv
+  ALRL_v2_fold4_attack1_explanation.txt
+  ALRL_attack1_core_rule_metrics.csv

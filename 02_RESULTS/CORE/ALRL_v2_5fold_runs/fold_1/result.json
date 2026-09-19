@@ -1,0 +1,14 @@
+{
+  "fold": 1,
+  "reused": false,
+  "best_epoch": 48,
+  "accuracy": 0.9912048320440818,
+  "precision_macro": 0.9840234794681417,
+  "recall_macro": 0.9839960003300724,
+  "f1_macro": 0.9837981758375334,
+  "train_rows": 37607,
+  "val_rows": 9437,
+  "binary_features": 298,
+  "trainable_parameters": 117312,
+  "selected_attack_ranges": 173
+}

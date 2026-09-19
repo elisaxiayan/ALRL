@@ -1,0 +1,2336 @@
+{
+  "fold": 3,
+  "base_sensor_boundaries": {
+    "FIT101": {
+      "low": 0.0,
+      "high": 2.652532
+    },
+    "LIT101": {
+      "low": 494.31,
+      "high": 813.5134
+    },
+    "AIT201": {
+      "low": 169.8923,
+      "high": 263.362
+    },
+    "AIT202": {
+      "low": 8.360869,
+      "high": 8.684504
+    },
+    "AIT203": {
+      "low": 294.2322,
+      "high": 333.7862
+    },
+    "FIT201": {
+      "low": 0.0,
+      "high": 2.464486
+    },
+    "DPIT301": {
+      "low": 1.971957,
+      "high": 20.28299
+    },
+    "FIT301": {
+      "low": 0.0,
+      "high": 2.214777
+    },
+    "LIT301": {
+      "low": 800.3958,
+      "high": 1010.758
+    },
+    "AIT401": {
+      "low": 148.8032,
+      "high": 148.808
+    },
+    "AIT402": {
+      "low": 143.8605,
+      "high": 157.1905
+    },
+    "FIT401": {
+      "low": 1.706981,
+      "high": 1.728895
+    },
+    "LIT401": {
+      "low": 734.4655,
+      "high": 984.2092
+    },
+    "AIT501": {
+      "low": 7.752371,
+      "high": 7.877339
+    },
+    "AIT502": {
+      "low": 137.0418,
+      "high": 146.9623
+    },
+    "AIT503": {
+      "low": 254.2938,
+      "high": 275.3461
+    },
+    "AIT504": {
+      "low": 11.72776,
+      "high": 15.72674
+    },
+    "FIT501": {
+      "low": 1.716739,
+      "high": 1.738529
+    },
+    "FIT502": {
+      "low": 1.261944,
+      "high": 1.312668
+    },
+    "FIT503": {
+      "low": 0.7293794,
+      "high": 0.7380853
+    },
+    "FIT504": {
+      "low": 0.3045191,
+      "high": 0.3086186
+    },
+    "PIT501": {
+      "low": 246.2189,
+      "high": 252.4833
+    },
+    "PIT502": {
+      "low": 0.8169672,
+      "high": 1.762086
+    },
+    "PIT503": {
+      "low": 185.5294,
+      "high": 190.6402
+    },
+    "FIT601": {
+      "low": 0.0,
+      "high": 0.000128152
+    }
+  },
+  "selected_ranges": [
+    {
+      "source_attack": "Attack_39",
+      "sensor": "AIT201",
+      "low": 170.0205,
+      "high": 170.0205,
+      "target_coverage": 1.0,
+      "other_coverage": 0.004743019454418779,
+      "specificity_score": 0.9952569805455812,
+      "fallback_selected": false,
+      "source_attacks": "Attack_39",
+      "feature_name": "AIT201_ATTACK_RANGE_000"
+    },
+    {
+      "source_attack": "Attack_33",
+      "sensor": "AIT201",
+      "low": 177.3904,
+      "high": 177.4545,
+      "target_coverage": 1.0,
+      "other_coverage": 0.01933805385688231,
+      "specificity_score": 0.9806619461431176,
+      "fallback_selected": false,
+      "source_attacks": "Attack_33",
+      "feature_name": "AIT201_ATTACK_RANGE_001"
+    },
+    {
+      "source_attack": "Attack_10",
+      "sensor": "AIT201",
+      "low": 263.1377,
+      "high": 263.2018,
+      "target_coverage": 1.0,
+      "other_coverage": 0.028125083308896057,
+      "specificity_score": 0.9718749166911039,
+      "fallback_selected": false,
+      "source_attacks": "Attack_10",
+      "feature_name": "AIT201_ATTACK_RANGE_002"
+    },
+    {
+      "source_attack": "Attack_35",
+      "sensor": "AIT201",
+      "low": 176.6534,
+      "high": 176.8777,
+      "target_coverage": 0.9844155844155844,
+      "other_coverage": 0.018602029312288614,
+      "specificity_score": 0.9658135551032958,
+      "fallback_selected": false,
+      "source_attacks": "Attack_35",
+      "feature_name": "AIT201_ATTACK_RANGE_003"
+    },
+    {
+      "source_attack": "Attack_40",
+      "sensor": "AIT201",
+      "low": 170.0526,
+      "high": 170.0846,
+      "target_coverage": 0.9663865546218487,
+      "other_coverage": 0.001149701879628887,
+      "specificity_score": 0.9652368527422198,
+      "fallback_selected": false,
+      "source_attacks": "Attack_40",
+      "feature_name": "AIT201_ATTACK_RANGE_004"
+    },
+    {
+      "source_attack": "Attack_25",
+      "sensor": "AIT201",
+      "low": 220.2961,
+      "high": 220.3922,
+      "target_coverage": 0.9775510204081632,
+      "other_coverage": 0.014401464373199818,
+      "specificity_score": 0.9631495560349634,
+      "fallback_selected": false,
+      "source_attacks": "Attack_25",
+      "feature_name": "AIT201_ATTACK_RANGE_005"
+    },
+    {
+      "source_attack": "Attack_29",
+      "sensor": "AIT201",
+      "low": 181.1074,
+      "high": 181.4278,
+      "target_coverage": 1.0,
+      "other_coverage": 0.04134036545735443,
+      "specificity_score": 0.9586596345426456,
+      "fallback_selected": false,
+      "source_attacks": "Attack_29",
+      "feature_name": "AIT201_ATTACK_RANGE_006"
+    },
+    {
+      "source_attack": "Attack_6",
+      "sensor": "AIT201",
+      "low": 263.4261,
+      "high": 263.4581,
+      "target_coverage": 0.9745222929936306,
+      "other_coverage": 0.022837628728456325,
+      "specificity_score": 0.9516846642651743,
+      "fallback_selected": false,
+      "source_attacks": "Attack_6",
+      "feature_name": "AIT201_ATTACK_RANGE_007"
+    },
+    {
+      "source_attack": "Attack_22",
+      "sensor": "AIT201",
+      "low": 239.6821,
+      "high": 239.8103,
+      "target_coverage": 0.9514824797843666,
+      "other_coverage": 0.00010733068584308254,
+      "specificity_score": 0.9513751490985235,
+      "fallback_selected": false,
+      "source_attacks": "Attack_22",
+      "feature_name": "AIT201_ATTACK_RANGE_008"
+    },
+    {
+      "source_attack": "Attack_30",
+      "sensor": "AIT201",
+      "low": 181.1074,
+      "high": 181.2356,
+      "target_coverage": 0.9509071504802561,
+      "other_coverage": 0.0076290120429404395,
+      "specificity_score": 0.9432781384373157,
+      "fallback_selected": false,
+      "source_attacks": "Attack_30",
+      "feature_name": "AIT201_ATTACK_RANGE_009"
+    },
+    {
+      "source_attack": "Attack_13",
+      "sensor": "AIT201",
+      "low": 260.2538,
+      "high": 260.382,
+      "target_coverage": 0.9518716577540107,
+      "other_coverage": 0.012763003310904625,
+      "specificity_score": 0.9391086544431061,
+      "fallback_selected": false,
+      "source_attacks": "Attack_13",
+      "feature_name": "AIT201_ATTACK_RANGE_010"
+    },
+    {
+      "source_attack": "Attack_17",
+      "sensor": "AIT201",
+      "low": 260.0936,
+      "high": 260.3179,
+      "target_coverage": 0.9773519163763066,
+      "other_coverage": 0.03844597329016593,
+      "specificity_score": 0.9389059430861406,
+      "fallback_selected": false,
+      "source_attacks": "Attack_17",
+      "feature_name": "AIT201_ATTACK_RANGE_011"
+    },
+    {
+      "source_attack": "Attack_11",
+      "sensor": "AIT201",
+      "low": 263.1056,
+      "high": 263.1697,
+      "target_coverage": 0.9576837416481069,
+      "other_coverage": 0.019548265662812585,
+      "specificity_score": 0.9381354759852943,
+      "fallback_selected": false,
+      "source_attacks": "Attack_11",
+      "feature_name": "AIT201_ATTACK_RANGE_012"
+    },
+    {
+      "source_attack": "Attack_41",
+      "sensor": "AIT201",
+      "low": 168.9951,
+      "high": 169.7962,
+      "target_coverage": 0.9574626865671642,
+      "other_coverage": 0.02146064629879611,
+      "specificity_score": 0.9360020402683681,
+      "fallback_selected": false,
+      "source_attacks": "Attack_41",
+      "feature_name": "AIT201_ATTACK_RANGE_013"
+    },
+    {
+      "source_attack": "Attack_27",
+      "sensor": "AIT201",
+      "low": 188.5734,
+      "high": 190.2717,
+      "target_coverage": 0.9364375461936437,
+      "other_coverage": 0.0030039133550129526,
+      "specificity_score": 0.9334336328386308,
+      "fallback_selected": false,
+      "source_attacks": "Attack_27",
+      "feature_name": "AIT201_ATTACK_RANGE_014"
+    },
+    {
+      "source_attack": "Attack_38",
+      "sensor": "AIT201",
+      "low": 169.8923,
+      "high": 169.9244,
+      "target_coverage": 0.9644444444444444,
+      "other_coverage": 0.03683113273106324,
+      "specificity_score": 0.9276133117133812,
+      "fallback_selected": false,
+      "source_attacks": "Attack_38",
+      "feature_name": "AIT201_ATTACK_RANGE_015"
+    },
+    {
+      "source_attack": "Attack_7",
+      "sensor": "AIT201",
+      "low": 263.49331,
+      "high": 263.6824,
+      "target_coverage": 0.924198250728863,
+      "other_coverage": 0.006247318747318748,
+      "specificity_score": 0.9179509319815442,
+      "fallback_selected": false,
+      "source_attacks": "Attack_7",
+      "feature_name": "AIT201_ATTACK_RANGE_016"
+    },
+    {
+      "source_attack": "Attack_24",
+      "sensor": "AIT201",
+      "low": 220.07816,
+      "high": 220.3922,
+      "target_coverage": 0.9494163424124513,
+      "other_coverage": 0.03370606174094484,
+      "specificity_score": 0.9157102806715065,
+      "fallback_selected": false,
+      "source_attacks": "Attack_24",
+      "feature_name": "AIT201_ATTACK_RANGE_017"
+    },
+    {
+      "source_attack": "Attack_19",
+      "sensor": "AIT201",
+      "low": 251.1856,
+      "high": 251.3458,
+      "target_coverage": 0.9516908212560387,
+      "other_coverage": 0.03625240435990596,
+      "specificity_score": 0.9154384168961327,
+      "fallback_selected": false,
+      "source_attacks": "Attack_19",
+      "feature_name": "AIT201_ATTACK_RANGE_018"
+    },
+    {
+      "source_attack": "Attack_23",
+      "sensor": "AIT201",
+      "low": 234.1387,
+      "high": 234.4591,
+      "target_coverage": 0.9139784946236559,
+      "other_coverage": 0.001429303416844206,
+      "specificity_score": 0.9125491912068117,
+      "fallback_selected": false,
+      "source_attacks": "Attack_23",
+      "feature_name": "AIT201_ATTACK_RANGE_019"
+    },
+    {
+      "source_attack": "Attack_20",
+      "sensor": "AIT201",
+      "low": 251.2497,
+      "high": 251.3138,
+      "target_coverage": 0.9208860759493671,
+      "other_coverage": 0.010234975752217131,
+      "specificity_score": 0.91065110019715,
+      "fallback_selected": false,
+      "source_attacks": "Attack_20",
+      "feature_name": "AIT201_ATTACK_RANGE_020"
+    },
+    {
+      "source_attack": "Attack_1",
+      "sensor": "AIT201",
+      "low": 262.3045,
+      "high": 262.6891,
+      "target_coverage": 0.9441489361702128,
+      "other_coverage": 0.039282131916393306,
+      "specificity_score": 0.9048668042538195,
+      "fallback_selected": false,
+      "source_attacks": "Attack_1",
+      "feature_name": "AIT201_ATTACK_RANGE_021"
+    },
+    {
+      "source_attack": "Attack_2",
+      "sensor": "AIT201",
+      "low": 262.3045,
+      "high": 262.4007,
+      "target_coverage": 0.9267605633802817,
+      "other_coverage": 0.023790365840575044,
+      "specificity_score": 0.9029701975397066,
+      "fallback_selected": false,
+      "source_attacks": "Attack_2",
+      "feature_name": "AIT201_ATTACK_RANGE_022"
+    },
+    {
+      "source_attack": "Attack_16",
+      "sensor": "AIT201",
+      "low": 261.2151,
+      "high": 262.0482,
+      "target_coverage": 0.918552036199095,
+      "other_coverage": 0.01643593992196269,
+      "specificity_score": 0.9021160962771323,
+      "fallback_selected": false,
+      "source_attacks": "Attack_16",
+      "feature_name": "AIT201_ATTACK_RANGE_023"
+    },
+    {
+      "source_attack": "Attack_37",
+      "sensor": "AIT201",
+      "low": 169.8603,
+      "high": 170.0205,
+      "target_coverage": 0.944,
+      "other_coverage": 0.06596178617432374,
+      "specificity_score": 0.8780382138256762,
+      "fallback_selected": false,
+      "source_attacks": "Attack_37",
+      "feature_name": "AIT201_ATTACK_RANGE_024"
+    },
+    {
+      "source_attack": "Attack_32",
+      "sensor": "AIT201",
+      "low": 177.6147,
+      "high": 183.3504,
+      "target_coverage": 0.9542619542619543,
+      "other_coverage": 0.07968674309704506,
+      "specificity_score": 0.8745752111649092,
+      "fallback_selected": false,
+      "source_attacks": "Attack_32",
+      "feature_name": "AIT201_ATTACK_RANGE_025"
+    },
+    {
+      "source_attack": "Attack_8",
+      "sensor": "AIT201",
+      "low": 263.2979,
+      "high": 263.6504,
+      "target_coverage": 0.9507133592736705,
+      "other_coverage": 0.08958988824997288,
+      "specificity_score": 0.8611234710236977,
+      "fallback_selected": false,
+      "source_attacks": "Attack_8",
+      "feature_name": "AIT201_ATTACK_RANGE_026"
+    },
+    {
+      "source_attack": "Attack_10",
+      "sensor": "AIT202",
+      "low": 8.364074,
+      "high": 8.370802,
+      "target_coverage": 1.0,
+      "other_coverage": 0.04404041481165525,
+      "specificity_score": 0.9559595851883448,
+      "fallback_selected": false,
+      "source_attacks": "Attack_10",
+      "feature_name": "AIT202_ATTACK_RANGE_000"
+    },
+    {
+      "source_attack": "Attack_25",
+      "sensor": "AIT202",
+      "low": 8.570431,
+      "high": 8.580364,
+      "target_coverage": 0.9714285714285714,
+      "other_coverage": 0.01604350049799456,
+      "specificity_score": 0.9553850709305769,
+      "fallback_selected": false,
+      "source_attacks": "Attack_25",
+      "feature_name": "AIT202_ATTACK_RANGE_001"
+    },
+    {
+      "source_attack": "Attack_3",
+      "sensor": "AIT202",
+      "low": 8.445143,
+      "high": 8.45059,
+      "target_coverage": 0.9674267100977199,
+      "other_coverage": 0.01226829529626058,
+      "specificity_score": 0.9551584148014592,
+      "fallback_selected": false,
+      "source_attacks": "Attack_3",
+      "feature_name": "AIT202_ATTACK_RANGE_002"
+    },
+    {
+      "source_attack": "Attack_19",
+      "sensor": "AIT202",
+      "low": 8.384901,
+      "high": 8.391951,
+      "target_coverage": 0.9806763285024155,
+      "other_coverage": 0.040206240649711476,
+      "specificity_score": 0.940470087852704,
+      "fallback_selected": false,
+      "source_attacks": "Attack_19",
+      "feature_name": "AIT202_ATTACK_RANGE_003"
+    },
+    {
+      "source_attack": "Attack_29",
+      "sensor": "AIT202",
+      "low": 8.676814,
+      "high": 8.683222,
+      "target_coverage": 0.9690721649484536,
+      "other_coverage": 0.030072984923552287,
+      "specificity_score": 0.9389991800249013,
+      "fallback_selected": false,
+      "source_attacks": "Attack_29",
+      "feature_name": "AIT202_ATTACK_RANGE_004"
+    },
+    {
+      "source_attack": "Attack_31",
+      "sensor": "AIT202",
+      "low": 8.672328,
+      "high": 8.682901,
+      "target_coverage": 0.9659863945578231,
+      "other_coverage": 0.028544651225063597,
+      "specificity_score": 0.9374417433327595,
+      "fallback_selected": false,
+      "source_attacks": "Attack_31",
+      "feature_name": "AIT202_ATTACK_RANGE_005"
+    },
+    {
+      "source_attack": "Attack_20",
+      "sensor": "AIT202",
+      "low": 8.38394,
+      "high": 8.388746,
+      "target_coverage": 0.9430379746835443,
+      "other_coverage": 0.014387910939635078,
+      "specificity_score": 0.9286500637439092,
+      "fallback_selected": false,
+      "source_attacks": "Attack_20",
+      "feature_name": "AIT202_ATTACK_RANGE_006"
+    },
+    {
+      "source_attack": "Attack_36",
+      "sensor": "AIT202",
+      "low": 8.684824,
+      "high": 8.693796,
+      "target_coverage": 0.9537037037037037,
+      "other_coverage": 0.025210309887924314,
+      "specificity_score": 0.9284933938157794,
+      "fallback_selected": false,
+      "source_attacks": "Attack_36",
+      "feature_name": "AIT202_ATTACK_RANGE_007"
+    },
+    {
+      "source_attack": "Attack_6",
+      "sensor": "AIT202",
+      "low": 6.0,
+      "high": 8.367277,
+      "target_coverage": 1.0,
+      "other_coverage": 0.07510271597033243,
+      "specificity_score": 0.9248972840296675,
+      "fallback_selected": false,
+      "source_attacks": "Attack_6",
+      "feature_name": "AIT202_ATTACK_RANGE_008"
+    },
+    {
+      "source_attack": "Attack_4",
+      "sensor": "AIT202",
+      "low": 8.366348,
+      "high": 8.372725,
+      "target_coverage": 0.9423076923076923,
+      "other_coverage": 0.03530956144345916,
+      "specificity_score": 0.9069981308642331,
+      "fallback_selected": false,
+      "source_attacks": "Attack_4",
+      "feature_name": "AIT202_ATTACK_RANGE_009"
+    },
+    {
+      "source_attack": "Attack_7",
+      "sensor": "AIT202",
+      "low": 8.422071,
+      "high": 8.438734,
+      "target_coverage": 0.9271137026239067,
+      "other_coverage": 0.03338159588159588,
+      "specificity_score": 0.8937321067423109,
+      "fallback_selected": false,
+      "source_attacks": "Attack_7",
+      "feature_name": "AIT202_ATTACK_RANGE_010"
+    },
+    {
+      "source_attack": "Attack_13",
+      "sensor": "AIT202",
+      "low": 8.391951,
+      "high": 8.400282,
+      "target_coverage": 0.9679144385026738,
+      "other_coverage": 0.07502937092812133,
+      "specificity_score": 0.8928850675745524,
+      "fallback_selected": false,
+      "source_attacks": "Attack_13",
+      "feature_name": "AIT202_ATTACK_RANGE_011"
+    },
+    {
+      "source_attack": "Attack_33",
+      "sensor": "AIT202",
+      "low": 8.596066,
+      "high": 8.605999,
+      "target_coverage": 0.9380281690140845,
+      "other_coverage": 0.0466956335157172,
+      "specificity_score": 0.8913325354983673,
+      "fallback_selected": false,
+      "source_attacks": "Attack_33",
+      "feature_name": "AIT202_ATTACK_RANGE_012"
+    },
+    {
+      "source_attack": "Attack_40",
+      "sensor": "AIT202",
+      "low": 8.620739,
+      "high": 8.625225,
+      "target_coverage": 0.9159663865546218,
+      "other_coverage": 0.031202374268067698,
+      "specificity_score": 0.8847640122865541,
+      "fallback_selected": false,
+      "source_attacks": "Attack_40",
+      "feature_name": "AIT202_ATTACK_RANGE_013"
+    },
+    {
+      "source_attack": "Attack_10",
+      "sensor": "AIT203",
+      "low": 328.4286,
+      "high": 328.6337,
+      "target_coverage": 1.0,
+      "other_coverage": 0.012396363733304896,
+      "specificity_score": 0.9876036362666951,
+      "fallback_selected": false,
+      "source_attacks": "Attack_10",
+      "feature_name": "AIT203_ATTACK_RANGE_000"
+    },
+    {
+      "source_attack": "Attack_38",
+      "sensor": "AIT203",
+      "low": 290.9254,
+      "high": 292.1302,
+      "target_coverage": 0.9822222222222222,
+      "other_coverage": 0.012989789918212433,
+      "specificity_score": 0.9692324323040098,
+      "fallback_selected": false,
+      "source_attacks": "Attack_38",
+      "feature_name": "AIT203_ATTACK_RANGE_001"
+    },
+    {
+      "source_attack": "Attack_36",
+      "sensor": "AIT203",
+      "low": 288.1056,
+      "high": 291.1305,
+      "target_coverage": 0.9861111111111112,
+      "other_coverage": 0.024027736716209315,
+      "specificity_score": 0.9620833743949019,
+      "fallback_selected": false,
+      "source_attacks": "Attack_36",
+      "feature_name": "AIT203_ATTACK_RANGE_002"
+    },
+    {
+      "source_attack": "Attack_13",
+      "sensor": "AIT203",
+      "low": 332.4532,
+      "high": 332.7352,
+      "target_coverage": 0.9732620320855615,
+      "other_coverage": 0.013697532842037808,
+      "specificity_score": 0.9595644992435237,
+      "fallback_selected": false,
+      "source_attacks": "Attack_13",
+      "feature_name": "AIT203_ATTACK_RANGE_003"
+    },
+    {
+      "source_attack": "Attack_19",
+      "sensor": "AIT203",
+      "low": 333.5555,
+      "high": 333.7862,
+      "target_coverage": 0.966183574879227,
+      "other_coverage": 0.016563368241077153,
+      "specificity_score": 0.9496202066381498,
+      "fallback_selected": false,
+      "source_attacks": "Attack_19",
+      "feature_name": "AIT203_ATTACK_RANGE_004"
+    },
+    {
+      "source_attack": "Attack_33",
+      "sensor": "AIT203",
+      "low": 304.9474,
+      "high": 305.1782,
+      "target_coverage": 0.9549295774647887,
+      "other_coverage": 0.012874155133569359,
+      "specificity_score": 0.9420554223312193,
+      "fallback_selected": false,
+      "source_attacks": "Attack_33",
+      "feature_name": "AIT203_ATTACK_RANGE_005"
+    },
+    {
+      "source_attack": "Attack_6",
+      "sensor": "AIT203",
+      "low": 329.55138,
+      "high": 330.0436,
+      "target_coverage": 0.9490445859872612,
+      "other_coverage": 0.01600768368817032,
+      "specificity_score": 0.9330369022990909,
+      "fallback_selected": false,
+      "source_attacks": "Attack_6",
+      "feature_name": "AIT203_ATTACK_RANGE_006"
+    },
+    {
+      "source_attack": "Attack_4",
+      "sensor": "AIT203",
+      "low": 330.7101,
+      "high": 331.1971,
+      "target_coverage": 0.9615384615384616,
+      "other_coverage": 0.03046052455327243,
+      "specificity_score": 0.9310779369851891,
+      "fallback_selected": false,
+      "source_attacks": "Attack_4",
+      "feature_name": "AIT203_ATTACK_RANGE_007"
+    },
+    {
+      "source_attack": "Attack_22",
+      "sensor": "AIT203",
+      "low": 334.7603,
+      "high": 337.3494,
+      "target_coverage": 0.9326145552560647,
+      "other_coverage": 0.0028442631748416872,
+      "specificity_score": 0.9297702920812231,
+      "fallback_selected": false,
+      "source_attacks": "Attack_22",
+      "feature_name": "AIT203_ATTACK_RANGE_008"
+    },
+    {
+      "source_attack": "Attack_40",
+      "sensor": "AIT203",
+      "low": 303.3325,
+      "high": 303.831035,
+      "target_coverage": 0.9369747899159664,
+      "other_coverage": 0.008956979759899468,
+      "specificity_score": 0.9280178101560669,
+      "fallback_selected": false,
+      "source_attacks": "Attack_40",
+      "feature_name": "AIT203_ATTACK_RANGE_009"
+    },
+    {
+      "source_attack": "Attack_11",
+      "sensor": "AIT203",
+      "low": 327.68008000000003,
+      "high": 328.4286,
+      "target_coverage": 0.933184855233853,
+      "other_coverage": 0.005592901317558484,
+      "specificity_score": 0.9275919539162945,
+      "fallback_selected": false,
+      "source_attacks": "Attack_11",
+      "feature_name": "AIT203_ATTACK_RANGE_010"
+    },
+    {
+      "source_attack": "Attack_27",
+      "sensor": "AIT203",
+      "low": 322.789,
+      "high": 325.455,
+      "target_coverage": 0.9386548410938654,
+      "other_coverage": 0.011188888276470264,
+      "specificity_score": 0.9274659528173952,
+      "fallback_selected": false,
+      "source_attacks": "Attack_27",
+      "feature_name": "AIT203_ATTACK_RANGE_011"
+    },
+    {
+      "source_attack": "Attack_20",
+      "sensor": "AIT203",
+      "low": 333.4786,
+      "high": 333.6324,
+      "target_coverage": 0.939873417721519,
+      "other_coverage": 0.012807116255392118,
+      "specificity_score": 0.9270663014661269,
+      "fallback_selected": false,
+      "source_attacks": "Attack_20",
+      "feature_name": "AIT203_ATTACK_RANGE_012"
+    },
+    {
+      "source_attack": "Attack_21",
+      "sensor": "AIT203",
+      "low": 332.0174,
+      "high": 332.8634,
+      "target_coverage": 0.9410745233968805,
+      "other_coverage": 0.02735955965679132,
+      "specificity_score": 0.9137149637400892,
+      "fallback_selected": false,
+      "source_attacks": "Attack_21",
+      "feature_name": "AIT203_ATTACK_RANGE_013"
+    },
+    {
+      "source_attack": "Attack_39",
+      "sensor": "AIT203",
+      "low": 303.8195,
+      "high": 305.1269,
+      "target_coverage": 0.9501557632398754,
+      "other_coverage": 0.039927112921378426,
+      "specificity_score": 0.910228650318497,
+      "fallback_selected": false,
+      "source_attacks": "Attack_39",
+      "feature_name": "AIT203_ATTACK_RANGE_014"
+    },
+    {
+      "source_attack": "Attack_2",
+      "sensor": "AIT203",
+      "low": 328.6593,
+      "high": 329.38988,
+      "target_coverage": 0.9295774647887324,
+      "other_coverage": 0.04028537710546079,
+      "specificity_score": 0.8892920876832716,
+      "fallback_selected": false,
+      "source_attacks": "Attack_2",
+      "feature_name": "AIT203_ATTACK_RANGE_015"
+    },
+    {
+      "source_attack": "Attack_3",
+      "sensor": "AIT203",
+      "low": 316.6111,
+      "high": 318.7132,
+      "target_coverage": 0.9218241042345277,
+      "other_coverage": 0.04414443372977606,
+      "specificity_score": 0.8776796705047516,
+      "fallback_selected": false,
+      "source_attacks": "Attack_3",
+      "feature_name": "AIT203_ATTACK_RANGE_016"
+    },
+    {
+      "source_attack": "Attack_7",
+      "sensor": "AIT203",
+      "low": 316.8931,
+      "high": 319.80515,
+      "target_coverage": 0.9300291545189504,
+      "other_coverage": 0.06695087945087945,
+      "specificity_score": 0.863078275068071,
+      "fallback_selected": false,
+      "source_attacks": "Attack_7",
+      "feature_name": "AIT203_ATTACK_RANGE_017"
+    },
+    {
+      "source_attack": "Attack_41",
+      "sensor": "AIT203",
+      "low": 304.8193,
+      "high": 307.2545,
+      "target_coverage": 0.9201492537313433,
+      "other_coverage": 0.06113116063803411,
+      "specificity_score": 0.8590180930933091,
+      "fallback_selected": false,
+      "source_attacks": "Attack_41",
+      "feature_name": "AIT203_ATTACK_RANGE_018"
+    },
+    {
+      "source_attack": "Attack_32",
+      "sensor": "AIT203",
+      "low": 290.7716,
+      "high": 300.2563,
+      "target_coverage": 0.9293139293139293,
+      "other_coverage": 0.07120943000161473,
+      "specificity_score": 0.8581044993123146,
+      "fallback_selected": false,
+      "source_attacks": "Attack_32",
+      "feature_name": "AIT203_ATTACK_RANGE_019"
+    },
+    {
+      "source_attack": "Attack_35",
+      "sensor": "AIT203",
+      "low": 288.6696,
+      "high": 303.5888,
+      "target_coverage": 1.0,
+      "other_coverage": 0.16969989799753046,
+      "specificity_score": 0.8303001020024695,
+      "fallback_selected": false,
+      "source_attacks": "Attack_35",
+      "feature_name": "AIT203_ATTACK_RANGE_020"
+    },
+    {
+      "source_attack": "Attack_29",
+      "sensor": "AIT402",
+      "low": 146.3727,
+      "high": 146.8854,
+      "target_coverage": 0.979381443298969,
+      "other_coverage": 0.026343828245698152,
+      "specificity_score": 0.9530376150532709,
+      "fallback_selected": false,
+      "source_attacks": "Attack_29",
+      "feature_name": "AIT402_ATTACK_RANGE_000"
+    },
+    {
+      "source_attack": "Attack_24",
+      "sensor": "AIT402",
+      "low": 149.6796,
+      "high": 150.5511,
+      "target_coverage": 0.9727626459143969,
+      "other_coverage": 0.019956128618051468,
+      "specificity_score": 0.9528065172963454,
+      "fallback_selected": false,
+      "source_attacks": "Attack_24",
+      "feature_name": "AIT402_ATTACK_RANGE_001"
+    },
+    {
+      "source_attack": "Attack_31",
+      "sensor": "AIT402",
+      "low": 147.5006,
+      "high": 147.9108,
+      "target_coverage": 0.95578231292517,
+      "other_coverage": 0.02353728745481323,
+      "specificity_score": 0.9322450254703568,
+      "fallback_selected": false,
+      "source_attacks": "Attack_31",
+      "feature_name": "AIT402_ATTACK_RANGE_002"
+    },
+    {
+      "source_attack": "Attack_34",
+      "sensor": "AIT402",
+      "low": 143.6555,
+      "high": 143.9887,
+      "target_coverage": 0.9629629629629629,
+      "other_coverage": 0.04350604398530273,
+      "specificity_score": 0.9194569189776601,
+      "fallback_selected": false,
+      "source_attacks": "Attack_34",
+      "feature_name": "AIT402_ATTACK_RANGE_003"
+    },
+    {
+      "source_attack": "Attack_30",
+      "sensor": "AIT402",
+      "low": 146.0651,
+      "high": 146.8342,
+      "target_coverage": 0.9455709711846318,
+      "other_coverage": 0.026756035093455397,
+      "specificity_score": 0.9188149360911765,
+      "fallback_selected": false,
+      "source_attacks": "Attack_30",
+      "feature_name": "AIT402_ATTACK_RANGE_004"
+    },
+    {
+      "source_attack": "Attack_6",
+      "sensor": "AIT402",
+      "low": 155.0372,
+      "high": 155.2679,
+      "target_coverage": 0.9617834394904459,
+      "other_coverage": 0.04332746384931434,
+      "specificity_score": 0.9184559756411316,
+      "fallback_selected": false,
+      "source_attacks": "Attack_6",
+      "feature_name": "AIT402_ATTACK_RANGE_005"
+    },
+    {
+      "source_attack": "Attack_26",
+      "sensor": "AIT402",
+      "low": 149.1925,
+      "high": 150.2692,
+      "target_coverage": 0.9221453287197232,
+      "other_coverage": 0.00833264808266864,
+      "specificity_score": 0.9138126806370546,
+      "fallback_selected": false,
+      "source_attacks": "Attack_26",
+      "feature_name": "AIT402_ATTACK_RANGE_006"
+    },
+    {
+      "source_attack": "Attack_39",
+      "sensor": "AIT402",
+      "low": 144.9372,
+      "high": 145.655,
+      "target_coverage": 0.9501557632398754,
+      "other_coverage": 0.03874805723779409,
+      "specificity_score": 0.9114077060020813,
+      "fallback_selected": false,
+      "source_attacks": "Attack_39",
+      "feature_name": "AIT402_ATTACK_RANGE_007"
+    },
+    {
+      "source_attack": "Attack_35",
+      "sensor": "AIT402",
+      "low": 142.989,
+      "high": 143.6298,
+      "target_coverage": 0.9246753246753247,
+      "other_coverage": 0.013448220325334192,
+      "specificity_score": 0.9112271043499904,
+      "fallback_selected": false,
+      "source_attacks": "Attack_35",
+      "feature_name": "AIT402_ATTACK_RANGE_008"
+    },
+    {
+      "source_attack": "Attack_21",
+      "sensor": "AIT402",
+      "low": 154.3194,
+      "high": 154.8321,
+      "target_coverage": 0.9740034662045061,
+      "other_coverage": 0.06769737197129135,
+      "specificity_score": 0.9063060942332147,
+      "fallback_selected": false,
+      "source_attacks": "Attack_21",
+      "feature_name": "AIT402_ATTACK_RANGE_009"
+    },
+    {
+      "source_attack": "Attack_4",
+      "sensor": "AIT402",
+      "low": 154.5501,
+      "high": 155.0628,
+      "target_coverage": 0.9711538461538461,
+      "other_coverage": 0.06984220537412597,
+      "specificity_score": 0.9013116407797201,
+      "fallback_selected": false,
+      "source_attacks": "Attack_4",
+      "feature_name": "AIT402_ATTACK_RANGE_010"
+    },
+    {
+      "source_attack": "Attack_27",
+      "sensor": "AIT402",
+      "low": 148.3978,
+      "high": 148.9874,
+      "target_coverage": 0.9327420546932742,
+      "other_coverage": 0.03370445902000772,
+      "specificity_score": 0.8990375956732665,
+      "fallback_selected": false,
+      "source_attacks": "Attack_27",
+      "feature_name": "AIT402_ATTACK_RANGE_011"
+    },
+    {
+      "source_attack": "Attack_32",
+      "sensor": "AIT402",
+      "low": 145.2961,
+      "high": 146.2189,
+      "target_coverage": 0.9272349272349273,
+      "other_coverage": 0.04564293018999946,
+      "specificity_score": 0.8815919970449279,
+      "fallback_selected": false,
+      "source_attacks": "Attack_32",
+      "feature_name": "AIT402_ATTACK_RANGE_012"
+    },
+    {
+      "source_attack": "Attack_41",
+      "sensor": "AIT402",
+      "low": 144.1425,
+      "high": 144.8347,
+      "target_coverage": 0.926865671641791,
+      "other_coverage": 0.07476789994214716,
+      "specificity_score": 0.8520977716996438,
+      "fallback_selected": false,
+      "source_attacks": "Attack_41",
+      "feature_name": "AIT402_ATTACK_RANGE_013"
+    },
+    {
+      "source_attack": "Attack_37",
+      "sensor": "AIT402",
+      "low": 140.9126,
+      "high": 144.809,
+      "target_coverage": 0.9493333333333334,
+      "other_coverage": 0.18723164448261057,
+      "specificity_score": 0.7621016888507228,
+      "fallback_selected": false,
+      "source_attacks": "Attack_37",
+      "feature_name": "AIT402_ATTACK_RANGE_014"
+    },
+    {
+      "source_attack": "Attack_3",
+      "sensor": "AIT501",
+      "low": 7.879582,
+      "high": 7.882146,
+      "target_coverage": 0.990228013029316,
+      "other_coverage": 0.005116254151933997,
+      "specificity_score": 0.985111758877382,
+      "fallback_selected": false,
+      "source_attacks": "Attack_3",
+      "feature_name": "AIT501_ATTACK_RANGE_000"
+    },
+    {
+      "source_attack": "Attack_6",
+      "sensor": "AIT501",
+      "low": 7.869969,
+      "high": 7.870931,
+      "target_coverage": 1.0,
+      "other_coverage": 0.022437436636252066,
+      "specificity_score": 0.9775625633637479,
+      "fallback_selected": false,
+      "source_attacks": "Attack_6",
+      "feature_name": "AIT501_ATTACK_RANGE_001"
+    },
+    {
+      "source_attack": "Attack_29",
+      "sensor": "AIT501",
+      "low": 7.837926,
+      "high": 7.84081,
+      "target_coverage": 0.979381443298969,
+      "other_coverage": 0.006659208353310958,
+      "specificity_score": 0.9727222349456581,
+      "fallback_selected": false,
+      "source_attacks": "Attack_29",
+      "feature_name": "AIT501_ATTACK_RANGE_002"
+    },
+    {
+      "source_attack": "Attack_10",
+      "sensor": "AIT501",
+      "low": 7.852987,
+      "high": 7.853628,
+      "target_coverage": 0.9765625,
+      "other_coverage": 0.0063448055237130445,
+      "specificity_score": 0.9702176944762869,
+      "fallback_selected": false,
+      "source_attacks": "Attack_10",
+      "feature_name": "AIT501_ATTACK_RANGE_003"
+    },
+    {
+      "source_attack": "Attack_4",
+      "sensor": "AIT501",
+      "low": 7.87061,
+      "high": 7.873174,
+      "target_coverage": 1.0,
+      "other_coverage": 0.03472017574409945,
+      "specificity_score": 0.9652798242559005,
+      "fallback_selected": false,
+      "source_attacks": "Attack_4",
+      "feature_name": "AIT501_ATTACK_RANGE_004"
+    },
+    {
+      "source_attack": "Attack_25",
+      "sensor": "AIT501",
+      "low": 7.813894,
+      "high": 7.821584,
+      "target_coverage": 0.9673469387755103,
+      "other_coverage": 0.006648900374168888,
+      "specificity_score": 0.9606980384013414,
+      "fallback_selected": false,
+      "source_attacks": "Attack_25",
+      "feature_name": "AIT501_ATTACK_RANGE_005"
+    },
+    {
+      "source_attack": "Attack_39",
+      "sensor": "AIT501",
+      "low": 7.75109,
+      "high": 7.755255,
+      "target_coverage": 1.0,
+      "other_coverage": 0.05579077120960394,
+      "specificity_score": 0.944209228790396,
+      "fallback_selected": false,
+      "source_attacks": "Attack_39",
+      "feature_name": "AIT501_ATTACK_RANGE_006"
+    },
+    {
+      "source_attack": "Attack_31",
+      "sensor": "AIT501",
+      "low": 7.778006,
+      "high": 7.779928,
+      "target_coverage": 0.9489795918367347,
+      "other_coverage": 0.010095059579595661,
+      "specificity_score": 0.9388845322571391,
+      "fallback_selected": false,
+      "source_attacks": "Attack_31",
+      "feature_name": "AIT501_ATTACK_RANGE_007"
+    },
+    {
+      "source_attack": "Attack_26",
+      "sensor": "AIT501",
+      "low": 7.784414,
+      "high": 7.7889,
+      "target_coverage": 0.9420415224913494,
+      "other_coverage": 0.007373297152098238,
+      "specificity_score": 0.9346682253392512,
+      "fallback_selected": false,
+      "source_attacks": "Attack_26",
+      "feature_name": "AIT501_ATTACK_RANGE_008"
+    },
+    {
+      "source_attack": "Attack_1",
+      "sensor": "AIT501",
+      "low": 7.873174,
+      "high": 7.876058,
+      "target_coverage": 0.9601063829787234,
+      "other_coverage": 0.03133895410307154,
+      "specificity_score": 0.9287674288756519,
+      "fallback_selected": false,
+      "source_attacks": "Attack_1",
+      "feature_name": "AIT501_ATTACK_RANGE_009"
+    },
+    {
+      "source_attack": "Attack_36",
+      "sensor": "AIT501",
+      "low": 7.79595,
+      "high": 7.802359,
+      "target_coverage": 1.0,
+      "other_coverage": 0.07831859596312522,
+      "specificity_score": 0.9216814040368748,
+      "fallback_selected": false,
+      "source_attacks": "Attack_36",
+      "feature_name": "AIT501_ATTACK_RANGE_010"
+    },
+    {
+      "source_attack": "Attack_7",
+      "sensor": "AIT501",
+      "low": 7.867406,
+      "high": 7.871251,
+      "target_coverage": 0.9475218658892128,
+      "other_coverage": 0.02775096525096525,
+      "specificity_score": 0.9197709006382476,
+      "fallback_selected": false,
+      "source_attacks": "Attack_7",
+      "feature_name": "AIT501_ATTACK_RANGE_011"
+    },
+    {
+      "source_attack": "Attack_21",
+      "sensor": "AIT501",
+      "low": 7.822866,
+      "high": 7.82575,
+      "target_coverage": 0.975736568457539,
+      "other_coverage": 0.0560142463979278,
+      "specificity_score": 0.9197223220596111,
+      "fallback_selected": false,
+      "source_attacks": "Attack_21",
+      "feature_name": "AIT501_ATTACK_RANGE_012"
+    },
+    {
+      "source_attack": "Attack_34",
+      "sensor": "AIT501",
+      "low": 7.796911,
+      "high": 7.798513,
+      "target_coverage": 0.9629629629629629,
+      "other_coverage": 0.045023696682464455,
+      "specificity_score": 0.9179392662804985,
+      "fallback_selected": false,
+      "source_attacks": "Attack_34",
+      "feature_name": "AIT501_ATTACK_RANGE_013"
+    },
+    {
+      "source_attack": "Attack_23",
+      "sensor": "AIT501",
+      "low": 7.801077,
+      "high": 7.804922,
+      "target_coverage": 0.9336917562724014,
+      "other_coverage": 0.017529192848089317,
+      "specificity_score": 0.9161625634243121,
+      "fallback_selected": false,
+      "source_attacks": "Attack_23",
+      "feature_name": "AIT501_ATTACK_RANGE_014"
+    },
+    {
+      "source_attack": "Attack_19",
+      "sensor": "AIT501",
+      "low": 7.823186,
+      "high": 7.825109,
+      "target_coverage": 0.9565217391304348,
+      "other_coverage": 0.04407993160931823,
+      "specificity_score": 0.9124418075211166,
+      "fallback_selected": false,
+      "source_attacks": "Attack_19",
+      "feature_name": "AIT501_ATTACK_RANGE_015"
+    },
+    {
+      "source_attack": "Attack_8",
+      "sensor": "AIT501",
+      "low": 7.856191,
+      "high": 7.860997,
+      "target_coverage": 0.9571984435797666,
+      "other_coverage": 0.04757513290658566,
+      "specificity_score": 0.9096233106731809,
+      "fallback_selected": false,
+      "source_attacks": "Attack_8",
+      "feature_name": "AIT501_ATTACK_RANGE_016"
+    },
+    {
+      "source_attack": "Attack_17",
+      "sensor": "AIT501",
+      "low": 7.860036,
+      "high": 7.86292,
+      "target_coverage": 0.926829268292683,
+      "other_coverage": 0.034776743558613245,
+      "specificity_score": 0.8920525247340697,
+      "fallback_selected": false,
+      "source_attacks": "Attack_17",
+      "feature_name": "AIT501_ATTACK_RANGE_017"
+    },
+    {
+      "source_attack": "Attack_28",
+      "sensor": "AIT501",
+      "low": 7.440592,
+      "high": 7.74328675,
+      "target_coverage": 0.9051490514905149,
+      "other_coverage": 0.01349556922576624,
+      "specificity_score": 0.8916534822647487,
+      "fallback_selected": false,
+      "source_attacks": "Attack_28",
+      "feature_name": "AIT501_ATTACK_RANGE_018"
+    },
+    {
+      "source_attack": "Attack_27",
+      "sensor": "AIT501",
+      "low": 7.7591,
+      "high": 7.769675,
+      "target_coverage": 0.9334811529933481,
+      "other_coverage": 0.04202722813206195,
+      "specificity_score": 0.8914539248612862,
+      "fallback_selected": false,
+      "source_attacks": "Attack_27",
+      "feature_name": "AIT501_ATTACK_RANGE_019"
+    },
+    {
+      "source_attack": "Attack_38",
+      "sensor": "AIT501",
+      "low": 7.752051,
+      "high": 7.755576,
+      "target_coverage": 0.9377777777777778,
+      "other_coverage": 0.048858715988667346,
+      "specificity_score": 0.8889190617891105,
+      "fallback_selected": false,
+      "source_attacks": "Attack_38",
+      "feature_name": "AIT501_ATTACK_RANGE_020"
+    },
+    {
+      "source_attack": "Attack_16",
+      "sensor": "AIT501",
+      "low": 7.857152,
+      "high": 7.859715,
+      "target_coverage": 0.9230769230769231,
+      "other_coverage": 0.035758191244855415,
+      "specificity_score": 0.8873187318320677,
+      "fallback_selected": false,
+      "source_attacks": "Attack_16",
+      "feature_name": "AIT501_ATTACK_RANGE_021"
+    },
+    {
+      "source_attack": "Attack_13",
+      "sensor": "AIT501",
+      "low": 7.852026,
+      "high": 7.859395,
+      "target_coverage": 0.9572192513368984,
+      "other_coverage": 0.07414824308448147,
+      "specificity_score": 0.883071008252417,
+      "fallback_selected": false,
+      "source_attacks": "Attack_13",
+      "feature_name": "AIT501_ATTACK_RANGE_022"
+    },
+    {
+      "source_attack": "Attack_32",
+      "sensor": "AIT501",
+      "low": 7.794027,
+      "high": 7.798513,
+      "target_coverage": 0.9688149688149689,
+      "other_coverage": 0.09389633457129017,
+      "specificity_score": 0.8749186342436787,
+      "fallback_selected": false,
+      "source_attacks": "Attack_32",
+      "feature_name": "AIT501_ATTACK_RANGE_023"
+    },
+    {
+      "source_attack": "Attack_2",
+      "sensor": "AIT501",
+      "low": 7.872533,
+      "high": 7.878621,
+      "target_coverage": 0.952112676056338,
+      "other_coverage": 0.08132174659371312,
+      "specificity_score": 0.8707909294626248,
+      "fallback_selected": false,
+      "source_attacks": "Attack_2",
+      "feature_name": "AIT501_ATTACK_RANGE_024"
+    },
+    {
+      "source_attack": "Attack_33",
+      "sensor": "AIT501",
+      "low": 7.790503,
+      "high": 7.798513,
+      "target_coverage": 0.9859154929577465,
+      "other_coverage": 0.1177448771591031,
+      "specificity_score": 0.8681706157986434,
+      "fallback_selected": false,
+      "source_attacks": "Attack_33",
+      "feature_name": "AIT501_ATTACK_RANGE_025"
+    },
+    {
+      "source_attack": "Attack_41",
+      "sensor": "AIT501",
+      "low": 7.749808,
+      "high": 7.761023,
+      "target_coverage": 0.9507462686567164,
+      "other_coverage": 0.08333562908069093,
+      "specificity_score": 0.8674106395760255,
+      "fallback_selected": false,
+      "source_attacks": "Attack_41",
+      "feature_name": "AIT501_ATTACK_RANGE_026"
+    },
+    {
+      "source_attack": "Attack_30",
+      "sensor": "AIT501",
+      "low": 7.825109,
+      "high": 7.829916,
+      "target_coverage": 0.927427961579509,
+      "other_coverage": 0.06471037000708409,
+      "specificity_score": 0.8627175915724249,
+      "fallback_selected": false,
+      "source_attacks": "Attack_30",
+      "feature_name": "AIT501_ATTACK_RANGE_027"
+    },
+    {
+      "source_attack": "Attack_37",
+      "sensor": "AIT501",
+      "low": 7.682518,
+      "high": 7.771918,
+      "target_coverage": 0.944,
+      "other_coverage": 0.18334048948046372,
+      "specificity_score": 0.7606595105195362,
+      "fallback_selected": false,
+      "source_attacks": "Attack_37",
+      "feature_name": "AIT501_ATTACK_RANGE_028"
+    },
+    {
+      "source_attack": "Attack_21",
+      "sensor": "AIT502",
+      "low": 146.0395,
+      "high": 146.5009,
+      "target_coverage": 0.975736568457539,
+      "other_coverage": 0.018077815552317737,
+      "specificity_score": 0.9576587529052213,
+      "fallback_selected": false,
+      "source_attacks": "Attack_21",
+      "feature_name": "AIT502_ATTACK_RANGE_000"
+    },
+    {
+      "source_attack": "Attack_22",
+      "sensor": "AIT502",
+      "low": 150.0,
+      "high": 150.0,
+      "target_coverage": 0.9568733153638814,
+      "other_coverage": 0.00034882472899001827,
+      "specificity_score": 0.9565244906348914,
+      "fallback_selected": false,
+      "source_attacks": "Attack_22",
+      "feature_name": "AIT502_ATTACK_RANGE_001"
+    },
+    {
+      "source_attack": "Attack_31",
+      "sensor": "AIT502",
+      "low": 139.5796,
+      "high": 140.041,
+      "target_coverage": 0.9659863945578231,
+      "other_coverage": 0.0145936537689115,
+      "specificity_score": 0.9513927407889116,
+      "fallback_selected": false,
+      "source_attacks": "Attack_31",
+      "feature_name": "AIT502_ATTACK_RANGE_002"
+    },
+    {
+      "source_attack": "Attack_27",
+      "sensor": "AIT502",
+      "low": 141.938,
+      "high": 142.6557,
+      "target_coverage": 0.9800443458980045,
+      "other_coverage": 0.040814639254809014,
+      "specificity_score": 0.9392297066431955,
+      "fallback_selected": false,
+      "source_attacks": "Attack_27",
+      "feature_name": "AIT502_ATTACK_RANGE_003"
+    },
+    {
+      "source_attack": "Attack_35",
+      "sensor": "AIT502",
+      "low": 136.5035,
+      "high": 137.0418,
+      "target_coverage": 0.9636363636363636,
+      "other_coverage": 0.03371450045632684,
+      "specificity_score": 0.9299218631800368,
+      "fallback_selected": false,
+      "source_attacks": "Attack_35",
+      "feature_name": "AIT502_ATTACK_RANGE_004"
+    },
+    {
+      "source_attack": "Attack_34",
+      "sensor": "AIT502",
+      "low": 136.888,
+      "high": 137.093,
+      "target_coverage": 0.9506172839506173,
+      "other_coverage": 0.02819638958410991,
+      "specificity_score": 0.9224208943665074,
+      "fallback_selected": false,
+      "source_attacks": "Attack_34",
+      "feature_name": "AIT502_ATTACK_RANGE_005"
+    },
+    {
+      "source_attack": "Attack_20",
+      "sensor": "AIT502",
+      "low": 145.6806,
+      "high": 146.1164,
+      "target_coverage": 0.939873417721519,
+      "other_coverage": 0.03330386089006779,
+      "specificity_score": 0.9065695568314512,
+      "fallback_selected": false,
+      "source_attacks": "Attack_20",
+      "feature_name": "AIT502_ATTACK_RANGE_006"
+    },
+    {
+      "source_attack": "Attack_16",
+      "sensor": "AIT502",
+      "low": 142.9377,
+      "high": 143.5017,
+      "target_coverage": 0.9638009049773756,
+      "other_coverage": 0.07301298840130419,
+      "specificity_score": 0.8907879165760714,
+      "fallback_selected": false,
+      "source_attacks": "Attack_16",
+      "feature_name": "AIT502_ATTACK_RANGE_007"
+    },
+    {
+      "source_attack": "Attack_36",
+      "sensor": "AIT502",
+      "low": 137.3238,
+      "high": 137.9134,
+      "target_coverage": 0.9143518518518519,
+      "other_coverage": 0.033031418819039426,
+      "specificity_score": 0.8813204330328124,
+      "fallback_selected": false,
+      "source_attacks": "Attack_36",
+      "feature_name": "AIT502_ATTACK_RANGE_008"
+    },
+    {
+      "source_attack": "Attack_7",
+      "sensor": "AIT502",
+      "low": 144.1938,
+      "high": 144.6552,
+      "target_coverage": 0.9416909620991254,
+      "other_coverage": 0.07298369798369798,
+      "specificity_score": 0.8687072641154274,
+      "fallback_selected": false,
+      "source_attacks": "Attack_7",
+      "feature_name": "AIT502_ATTACK_RANGE_009"
+    },
+    {
+      "source_attack": "Attack_2",
+      "sensor": "AIT502",
+      "low": 144.0144,
+      "high": 144.8603,
+      "target_coverage": 0.9915492957746479,
+      "other_coverage": 0.126890891535243,
+      "specificity_score": 0.8646584042394049,
+      "fallback_selected": false,
+      "source_attacks": "Attack_2",
+      "feature_name": "AIT502_ATTACK_RANGE_010"
+    },
+    {
+      "source_attack": "Attack_41",
+      "sensor": "AIT502",
+      "low": 138.1953,
+      "high": 138.9387,
+      "target_coverage": 0.9186567164179105,
+      "other_coverage": 0.0952918813190446,
+      "specificity_score": 0.8233648350988658,
+      "fallback_selected": false,
+      "source_attacks": "Attack_41",
+      "feature_name": "AIT502_ATTACK_RANGE_011"
+    },
+    {
+      "source_attack": "Attack_19",
+      "sensor": "AIT503",
+      "low": 254.5181,
+      "high": 254.7744,
+      "target_coverage": 0.9806763285024155,
+      "other_coverage": 0.008896131652062406,
+      "specificity_score": 0.9717801968503531,
+      "fallback_selected": false,
+      "source_attacks": "Attack_19",
+      "feature_name": "AIT503_ATTACK_RANGE_000"
+    },
+    {
+      "source_attack": "Attack_10",
+      "sensor": "AIT503",
+      "low": 270.2192,
+      "high": 270.9562,
+      "target_coverage": 1.0,
+      "other_coverage": 0.030151155661006106,
+      "specificity_score": 0.9698488443389939,
+      "fallback_selected": false,
+      "source_attacks": "Attack_10",
+      "feature_name": "AIT503_ATTACK_RANGE_001"
+    },
+    {
+      "source_attack": "Attack_25",
+      "sensor": "AIT503",
+      "low": 271.3407,
+      "high": 271.4368,
+      "target_coverage": 0.9775510204081632,
+      "other_coverage": 0.008264017873966998,
+      "specificity_score": 0.9692870025341962,
+      "fallback_selected": false,
+      "source_attacks": "Attack_25",
+      "feature_name": "AIT503_ATTACK_RANGE_002"
+    },
+    {
+      "source_attack": "Attack_40",
+      "sensor": "AIT503",
+      "low": 245.2576,
+      "high": 248.9105,
+      "target_coverage": 0.9663865546218487,
+      "other_coverage": 0.0050533408197641775,
+      "specificity_score": 0.9613332138020846,
+      "fallback_selected": false,
+      "source_attacks": "Attack_40",
+      "feature_name": "AIT503_ATTACK_RANGE_003"
+    },
+    {
+      "source_attack": "Attack_23",
+      "sensor": "AIT503",
+      "low": 269.9949,
+      "high": 270.4114,
+      "target_coverage": 0.96415770609319,
+      "other_coverage": 0.012971602707586096,
+      "specificity_score": 0.9511861033856038,
+      "fallback_selected": false,
+      "source_attacks": "Attack_23",
+      "feature_name": "AIT503_ATTACK_RANGE_004"
+    },
+    {
+      "source_attack": "Attack_3",
+      "sensor": "AIT503",
+      "low": 263.7465,
+      "high": 263.9708,
+      "target_coverage": 0.9641693811074918,
+      "other_coverage": 0.017143469409621772,
+      "specificity_score": 0.9470259116978701,
+      "fallback_selected": false,
+      "source_attacks": "Attack_3",
+      "feature_name": "AIT503_ATTACK_RANGE_005"
+    },
+    {
+      "source_attack": "Attack_16",
+      "sensor": "AIT503",
+      "low": 260.7344,
+      "high": 261.2151,
+      "target_coverage": 0.9909502262443439,
+      "other_coverage": 0.04476455181997969,
+      "specificity_score": 0.9461856744243642,
+      "fallback_selected": false,
+      "source_attacks": "Attack_16",
+      "feature_name": "AIT503_ATTACK_RANGE_006"
+    },
+    {
+      "source_attack": "Attack_38",
+      "sensor": "AIT503",
+      "low": 260.7344,
+      "high": 260.9267,
+      "target_coverage": 0.96,
+      "other_coverage": 0.02483027743625381,
+      "specificity_score": 0.9351697225637462,
+      "fallback_selected": false,
+      "source_attacks": "Attack_38",
+      "feature_name": "AIT503_ATTACK_RANGE_007"
+    },
+    {
+      "source_attack": "Attack_4",
+      "sensor": "AIT503",
+      "low": 262.2404,
+      "high": 262.657,
+      "target_coverage": 0.9487179487179487,
+      "other_coverage": 0.016958233986122645,
+      "specificity_score": 0.9317597147318261,
+      "fallback_selected": false,
+      "source_attacks": "Attack_4",
+      "feature_name": "AIT503_ATTACK_RANGE_008"
+    },
+    {
+      "source_attack": "Attack_39",
+      "sensor": "AIT503",
+      "low": 244.9052,
+      "high": 249.4553,
+      "target_coverage": 0.9221183800623053,
+      "other_coverage": 0.0077710488236239885,
+      "specificity_score": 0.9143473312386813,
+      "fallback_selected": false,
+      "source_attacks": "Attack_39",
+      "feature_name": "AIT503_ATTACK_RANGE_009"
+    },
+    {
+      "source_attack": "Attack_17",
+      "sensor": "AIT503",
+      "low": 260.2538,
+      "high": 260.5742,
+      "target_coverage": 0.9250871080139372,
+      "other_coverage": 0.012518548495885606,
+      "specificity_score": 0.9125685595180516,
+      "fallback_selected": false,
+      "source_attacks": "Attack_17",
+      "feature_name": "AIT503_ATTACK_RANGE_010"
+    },
+    {
+      "source_attack": "Attack_1",
+      "sensor": "AIT503",
+      "low": 261.3432,
+      "high": 262.3686,
+      "target_coverage": 0.9521276595744681,
+      "other_coverage": 0.08059750047442188,
+      "specificity_score": 0.8715301591000462,
+      "fallback_selected": false,
+      "source_attacks": "Attack_1",
+      "feature_name": "AIT503_ATTACK_RANGE_011"
+    },
+    {
+      "source_attack": "Attack_24",
+      "sensor": "AIT503",
+      "low": 271.28938,
+      "high": 272.7185,
+      "target_coverage": 0.9182879377431906,
+      "other_coverage": 0.04804451340217217,
+      "specificity_score": 0.8702434243410184,
+      "fallback_selected": false,
+      "source_attacks": "Attack_24",
+      "feature_name": "AIT503_ATTACK_RANGE_012"
+    },
+    {
+      "source_attack": "Attack_34",
+      "sensor": "AIT504",
+      "low": 14.99615,
+      "high": 15.18841,
+      "target_coverage": 1.0,
+      "other_coverage": 0.07188881197081846,
+      "specificity_score": 0.9281111880291816,
+      "fallback_selected": false,
+      "source_attacks": "Attack_34",
+      "feature_name": "AIT504_ATTACK_RANGE_000"
+    },
+    {
+      "source_attack": "Attack_24",
+      "sensor": "AIT504",
+      "low": 13.95796,
+      "high": 14.22712,
+      "target_coverage": 0.9610894941634242,
+      "other_coverage": 0.05002407575838639,
+      "specificity_score": 0.9110654184050377,
+      "fallback_selected": false,
+      "source_attacks": "Attack_24",
+      "feature_name": "AIT504_ATTACK_RANGE_001"
+    },
+    {
+      "source_attack": "Attack_23",
+      "sensor": "AIT504",
+      "low": 13.65035,
+      "high": 13.95796,
+      "target_coverage": 0.956989247311828,
+      "other_coverage": 0.056848520805803514,
+      "specificity_score": 0.9001407265060245,
+      "fallback_selected": false,
+      "source_attacks": "Attack_23",
+      "feature_name": "AIT504_ATTACK_RANGE_002"
+    },
+    {
+      "source_attack": "Attack_16",
+      "sensor": "AIT504",
+      "low": 11.65086,
+      "high": 11.88157,
+      "target_coverage": 0.9592760180995475,
+      "other_coverage": 0.06464803035971992,
+      "specificity_score": 0.8946279877398277,
+      "fallback_selected": false,
+      "source_attacks": "Attack_16",
+      "feature_name": "AIT504_ATTACK_RANGE_003"
+    },
+    {
+      "source_attack": "Attack_33",
+      "sensor": "AIT504",
+      "low": 15.38067,
+      "high": 15.76519,
+      "target_coverage": 0.9887323943661972,
+      "other_coverage": 0.09451775560562171,
+      "specificity_score": 0.8942146387605755,
+      "fallback_selected": false,
+      "source_attacks": "Attack_33",
+      "feature_name": "AIT504_ATTACK_RANGE_004"
+    },
+    {
+      "source_attack": "Attack_17",
+      "sensor": "AIT504",
+      "low": 11.57396,
+      "high": 11.88157,
+      "target_coverage": 0.9407665505226481,
+      "other_coverage": 0.06399568325913935,
+      "specificity_score": 0.8767708672635088,
+      "fallback_selected": false,
+      "source_attacks": "Attack_17",
+      "feature_name": "AIT504_ATTACK_RANGE_005"
+    },
+    {
+      "source_attack": "Attack_8",
+      "sensor": "AIT504",
+      "low": 12.516024999999999,
+      "high": 13.30428,
+      "target_coverage": 0.9014267185473411,
+      "other_coverage": 0.03173483779971791,
+      "specificity_score": 0.8696918807476233,
+      "fallback_selected": false,
+      "source_attacks": "Attack_8",
+      "feature_name": "AIT504_ATTACK_RANGE_006"
+    },
+    {
+      "source_attack": "Attack_3",
+      "sensor": "AIT504",
+      "low": 12.15073,
+      "high": 12.41989,
+      "target_coverage": 0.9609120521172638,
+      "other_coverage": 0.10050358941390763,
+      "specificity_score": 0.8604084627033561,
+      "fallback_selected": false,
+      "source_attacks": "Attack_3",
+      "feature_name": "AIT504_ATTACK_RANGE_007"
+    },
+    {
+      "source_attack": "Attack_35",
+      "sensor": "AIT504",
+      "low": 15.62676,
+      "high": 16.30351,
+      "target_coverage": 0.9064935064935065,
+      "other_coverage": 0.08702421216513663,
+      "specificity_score": 0.8194692943283698,
+      "fallback_selected": false,
+      "source_attacks": "Attack_35",
+      "feature_name": "AIT504_ATTACK_RANGE_008"
+    },
+    {
+      "source_attack": "Attack_37",
+      "sensor": "AIT504",
+      "low": 15.41912,
+      "high": 20.99462,
+      "target_coverage": 0.952,
+      "other_coverage": 0.17770502361528553,
+      "specificity_score": 0.7742949763847145,
+      "fallback_selected": false,
+      "source_attacks": "Attack_37",
+      "feature_name": "AIT504_ATTACK_RANGE_009"
+    },
+    {
+      "source_attack": "Attack_8",
+      "sensor": "DPIT301",
+      "low": 45.0,
+      "high": 45.0,
+      "target_coverage": 0.9831387808041504,
+      "other_coverage": 0.015433438211999566,
+      "specificity_score": 0.9677053425921508,
+      "fallback_selected": false,
+      "source_attacks": "Attack_8",
+      "feature_name": "DPIT301_ATTACK_RANGE_000"
+    },
+    {
+      "source_attack": "Attack_29",
+      "sensor": "DPIT301",
+      "low": 2.061592,
+      "high": 2.061592,
+      "target_coverage": 0.9690721649484536,
+      "other_coverage": 0.0018113046721005806,
+      "specificity_score": 0.967260860276353,
+      "fallback_selected": false,
+      "source_attacks": "Attack_29",
+      "feature_name": "DPIT301_ATTACK_RANGE_001"
+    },
+    {
+      "source_attack": "Attack_2",
+      "sensor": "FIT201",
+      "low": 2.78871,
+      "high": 2.802294,
+      "target_coverage": 0.9098591549295775,
+      "other_coverage": 0.03575260165218324,
+      "specificity_score": 0.8741065532773943,
+      "fallback_selected": false,
+      "source_attacks": "Attack_2",
+      "feature_name": "FIT201_ATTACK_RANGE_000"
+    },
+    {
+      "source_attack": "Attack_30",
+      "sensor": "FIT201",
+      "low": 2.783584,
+      "high": 2.821132,
+      "target_coverage": 0.9050160085378869,
+      "other_coverage": 0.04081521442973135,
+      "specificity_score": 0.8642007941081555,
+      "fallback_selected": false,
+      "source_attacks": "Attack_30",
+      "feature_name": "FIT201_ATTACK_RANGE_001"
+    },
+    {
+      "source_attack": "Attack_11",
+      "sensor": "FIT401",
+      "low": 0.0,
+      "high": 0.0,
+      "target_coverage": 0.9665924276169265,
+      "other_coverage": 0.024576499058886796,
+      "specificity_score": 0.9420159285580397,
+      "fallback_selected": false,
+      "source_attacks": "Attack_11",
+      "feature_name": "FIT401_ATTACK_RANGE_000"
+    },
+    {
+      "source_attack": "Attack_28",
+      "sensor": "FIT401",
+      "low": 0.0,
+      "high": 1.7021561,
+      "target_coverage": 0.9498644986449865,
+      "other_coverage": 0.05845370044172245,
+      "specificity_score": 0.891410798203264,
+      "fallback_selected": false,
+      "source_attacks": "Attack_28",
+      "feature_name": "FIT401_ATTACK_RANGE_001"
+    },
+    {
+      "source_attack": "Attack_11",
+      "sensor": "FIT504",
+      "low": 0.0,
+      "high": 0.0,
+      "target_coverage": 0.9732739420935412,
+      "other_coverage": 0.04345254100564668,
+      "specificity_score": 0.9298214010878946,
+      "fallback_selected": false,
+      "source_attacks": "Attack_11,Attack_22",
+      "feature_name": "FIT504_ATTACK_RANGE_000"
+    },
+    {
+      "source_attack": "Attack_21",
+      "sensor": "LIT101",
+      "low": 700.0,
+      "high": 700.0,
+      "target_coverage": 0.9705372616984402,
+      "other_coverage": 0.024931196373644163,
+      "specificity_score": 0.9456060653247961,
+      "fallback_selected": false,
+      "source_attacks": "Attack_21,Attack_30",
+      "feature_name": "LIT101_ATTACK_RANGE_000"
+    },
+    {
+      "source_attack": "Attack_1",
+      "sensor": "LIT101",
+      "low": 837.97774,
+      "high": 869.8804,
+      "target_coverage": 0.9002659574468085,
+      "other_coverage": 0.002114566107300675,
+      "specificity_score": 0.8981513913395078,
+      "fallback_selected": false,
+      "source_attacks": "Attack_1",
+      "feature_name": "LIT101_ATTACK_RANGE_001"
+    },
+    {
+      "source_attack": "Attack_38",
+      "sensor": "LIT101",
+      "low": 521.5592399999999,
+      "high": 523.7496,
+      "target_coverage": 0.9022222222222223,
+      "other_coverage": 0.03675094884267921,
+      "specificity_score": 0.8654712733795431,
+      "fallback_selected": false,
+      "source_attacks": "Attack_38",
+      "feature_name": "LIT101_ATTACK_RANGE_002"
+    },
+    {
+      "source_attack": "Attack_37",
+      "sensor": "LIT101",
+      "low": 701.94531,
+      "high": 809.99244,
+      "target_coverage": 0.8986666666666666,
+      "other_coverage": 0.09540038643194504,
+      "specificity_score": 0.8032662802347216,
+      "fallback_selected": false,
+      "source_attacks": "Attack_37",
+      "feature_name": "LIT101_ATTACK_RANGE_003"
+    },
+    {
+      "source_attack": "Attack_26",
+      "sensor": "LIT301",
+      "low": 801.0,
+      "high": 801.0,
+      "target_coverage": 0.9826989619377162,
+      "other_coverage": 0.0004659704519913384,
+      "specificity_score": 0.9822329914857248,
+      "fallback_selected": false,
+      "source_attacks": "Attack_26",
+      "feature_name": "LIT301_ATTACK_RANGE_000"
+    },
+    {
+      "source_attack": "Attack_34",
+      "sensor": "LIT301",
+      "low": 844.8956,
+      "high": 849.9023,
+      "target_coverage": 0.9259259259259259,
+      "other_coverage": 0.024735076415144577,
+      "specificity_score": 0.9011908495107813,
+      "fallback_selected": false,
+      "source_attacks": "Attack_34",
+      "feature_name": "LIT301_ATTACK_RANGE_001"
+    },
+    {
+      "source_attack": "Attack_28",
+      "sensor": "LIT301",
+      "low": 1011.72,
+      "high": 1016.286,
+      "target_coverage": 0.9065040650406504,
+      "other_coverage": 0.005690902685564077,
+      "specificity_score": 0.9008131623550863,
+      "fallback_selected": false,
+      "source_attacks": "Attack_28",
+      "feature_name": "LIT301_ATTACK_RANGE_002"
+    },
+    {
+      "source_attack": "Attack_13",
+      "sensor": "LIT301",
+      "low": 909.29813,
+      "high": 920.2769,
+      "target_coverage": 0.9090909090909091,
+      "other_coverage": 0.029264124746341984,
+      "specificity_score": 0.8798267843445671,
+      "fallback_selected": false,
+      "source_attacks": "Attack_13",
+      "feature_name": "LIT301_ATTACK_RANGE_003"
+    },
+    {
+      "source_attack": "Attack_20",
+      "sensor": "LIT301",
+      "low": 916.7021,
+      "high": 932.863825,
+      "target_coverage": 0.8987341772151899,
+      "other_coverage": 0.045360769498700534,
+      "specificity_score": 0.8533734077164894,
+      "fallback_selected": false,
+      "source_attacks": "Attack_20",
+      "feature_name": "LIT301_ATTACK_RANGE_004"
+    },
+    {
+      "source_attack": "Attack_31",
+      "sensor": "LIT401",
+      "low": 600.0,
+      "high": 600.0,
+      "target_coverage": 1.0,
+      "other_coverage": 0.011246485473289597,
+      "specificity_score": 0.9887535145267105,
+      "fallback_selected": false,
+      "source_attacks": "Attack_31",
+      "feature_name": "LIT401_ATTACK_RANGE_000"
+    },
+    {
+      "source_attack": "Attack_25",
+      "sensor": "LIT401",
+      "low": 1000.0,
+      "high": 1000.0,
+      "target_coverage": 0.9591836734693877,
+      "other_coverage": 0.00032302349995962207,
+      "specificity_score": 0.9588606499694281,
+      "fallback_selected": false,
+      "source_attacks": "Attack_25",
+      "feature_name": "LIT401_ATTACK_RANGE_001"
+    },
+    {
+      "source_attack": "Attack_28",
+      "sensor": "LIT401",
+      "low": 246.6291,
+      "high": 408.5952399999994,
+      "target_coverage": 0.9037940379403794,
+      "other_coverage": 0.0,
+      "specificity_score": 0.9037940379403794,
+      "fallback_selected": false,
+      "source_attacks": "Attack_28",
+      "feature_name": "LIT401_ATTACK_RANGE_002"
+    },
+    {
+      "source_attack": "Attack_26",
+      "sensor": "PIT501",
+      "low": 244.5046,
+      "high": 245.4659,
+      "target_coverage": 0.9221453287197232,
+      "other_coverage": 0.008305238056080914,
+      "specificity_score": 0.9138400906636422,
+      "fallback_selected": false,
+      "source_attacks": "Attack_26",
+      "feature_name": "PIT501_ATTACK_RANGE_000"
+    },
+    {
+      "source_attack": "Attack_32",
+      "sensor": "PIT501",
+      "low": 250.4807,
+      "high": 250.9453,
+      "target_coverage": 0.9043659043659044,
+      "other_coverage": 0.03746165025028258,
+      "specificity_score": 0.8669042541156218,
+      "fallback_selected": false,
+      "source_attacks": "Attack_32",
+      "feature_name": "PIT501_ATTACK_RANGE_001"
+    },
+    {
+      "source_attack": "Attack_1",
+      "sensor": "PIT501",
+      "low": 249.8718,
+      "high": 250.5768,
+      "target_coverage": 0.9375,
+      "other_coverage": 0.08401333803236913,
+      "specificity_score": 0.8534866619676309,
+      "fallback_selected": false,
+      "source_attacks": "Attack_1",
+      "feature_name": "PIT501_ATTACK_RANGE_002"
+    },
+    {
+      "source_attack": "Attack_17",
+      "sensor": "PIT501",
+      "low": 251.2337,
+      "high": 252.1469,
+      "target_coverage": 0.9163763066202091,
+      "other_coverage": 0.06906785377040335,
+      "specificity_score": 0.8473084528498057,
+      "fallback_selected": false,
+      "source_attacks": "Attack_17",
+      "feature_name": "PIT501_ATTACK_RANGE_003"
+    },
+    {
+      "source_attack": "Attack_8",
+      "sensor": "PIT501",
+      "low": 246.6996,
+      "high": 248.1415,
+      "target_coverage": 0.9118028534370947,
+      "other_coverage": 0.08446349137463383,
+      "specificity_score": 0.8273393620624608,
+      "fallback_selected": false,
+      "source_attacks": "Attack_8",
+      "feature_name": "PIT501_ATTACK_RANGE_004"
+    },
+    {
+      "source_attack": "Attack_11",
+      "sensor": "PIT502",
+      "low": 0.0,
+      "high": 0.0,
+      "target_coverage": 0.9732739420935412,
+      "other_coverage": 0.04420543156762571,
+      "specificity_score": 0.9290685105259155,
+      "fallback_selected": false,
+      "source_attacks": "Attack_11,Attack_22",
+      "feature_name": "PIT502_ATTACK_RANGE_000"
+    },
+    {
+      "source_attack": "Attack_28",
+      "sensor": "PIT502",
+      "low": 0.0,
+      "high": 0.7416780999999992,
+      "target_coverage": 0.9498644986449865,
+      "other_coverage": 0.039890517872144385,
+      "specificity_score": 0.9099739807728421,
+      "fallback_selected": false,
+      "source_attacks": "Attack_28",
+      "feature_name": "PIT502_ATTACK_RANGE_001"
+    },
+    {
+      "source_attack": "Attack_23",
+      "sensor": "PIT502",
+      "low": 0.7825264650000001,
+      "high": 0.8217728999999993,
+      "target_coverage": 0.899641577060932,
+      "other_coverage": 0.061028559100347886,
+      "specificity_score": 0.8386130179605841,
+      "fallback_selected": false,
+      "source_attacks": "Attack_23",
+      "feature_name": "PIT502_ATTACK_RANGE_002"
+    },
+    {
+      "source_attack": "Attack_26",
+      "sensor": "PIT503",
+      "low": 183.8471,
+      "high": 184.7122,
+      "target_coverage": 0.9299307958477508,
+      "other_coverage": 0.00814077789655456,
+      "specificity_score": 0.9217900179511963,
+      "fallback_selected": false,
+      "source_attacks": "Attack_26",
+      "feature_name": "PIT503_ATTACK_RANGE_000"
+    },
+    {
+      "source_attack": "Attack_24",
+      "sensor": "PIT503",
+      "low": 190.3839,
+      "high": 190.88372,
+      "target_coverage": 0.9066147859922179,
+      "other_coverage": 0.032208014552458405,
+      "specificity_score": 0.8744067714397595,
+      "fallback_selected": false,
+      "source_attacks": "Attack_24",
+      "feature_name": "PIT503_ATTACK_RANGE_001"
+    },
+    {
+      "source_attack": "Attack_36",
+      "sensor": "PIT503",
+      "low": 186.2343,
+      "high": 186.8591,
+      "target_coverage": 0.9282407407407407,
+      "other_coverage": 0.07960867578681431,
+      "specificity_score": 0.8486320649539264,
+      "fallback_selected": false,
+      "source_attacks": "Attack_36",
+      "feature_name": "PIT503_ATTACK_RANGE_002"
+    },
+    {
+      "source_attack": "Attack_40",
+      "sensor": "PIT503",
+      "low": 134.6129,
+      "high": 185.6896,
+      "target_coverage": 0.9411764705882353,
+      "other_coverage": 0.10189567123873693,
+      "specificity_score": 0.8392807993494984,
+      "fallback_selected": false,
+      "source_attacks": "Attack_40",
+      "feature_name": "PIT503_ATTACK_RANGE_003"
+    }
+  ],
+  "actuators": {
+    "MV101": {
+      "states": [
+        0.0,
+        1.0,
+        2.0
+      ]
+    },
+    "P101": {
+      "states": [
+        1.0,
+        2.0
+      ]
+    },
+    "P102": {
+      "states": [
+        1.0,
+        2.0
+      ]
+    },
+    "MV201": {
+      "states": [
+        0.0,
+        1.0,
+        2.0
+      ]
+    },
+    "P201": {
+      "states": [
+        1.0,
+        2.0
+      ]
+    },
+    "P202": {
+      "states": [
+        1.0
+      ]
+    },
+    "P203": {
+      "states": [
+        1.0,
+        2.0
+      ]
+    },
+    "P204": {
+      "states": [
+        1.0,
+        2.0
+      ]
+    },
+    "P205": {
+      "states": [
+        1.0,
+        2.0
+      ]
+    },
+    "P206": {
+      "states": [
+        1.0,
+        2.0
+      ]
+    },
+    "MV301": {
+      "states": [
+        0.0,
+        1.0,
+        2.0
+      ]
+    },
+    "MV302": {
+      "states": [
+        0.0,
+        1.0,
+        2.0
+      ]
+    },
+    "MV303": {
+      "states": [
+        0.0,
+        1.0,
+        2.0
+      ]
+    },
+    "MV304": {
+      "states": [
+        0.0,
+        1.0,
+        2.0
+      ]
+    },
+    "P301": {
+      "states": [
+        1.0
+      ]
+    },
+    "P302": {
+      "states": [
+        1.0,
+        2.0
+      ]
+    },
+    "P401": {
+      "states": [
+        1.0
+      ]
+    },
+    "P402": {
+      "states": [
+        1.0,
+        2.0
+      ]
+    },
+    "P403": {
+      "states": [
+        1.0
+      ]
+    },
+    "P404": {
+      "states": [
+        1.0
+      ]
+    },
+    "UV401": {
+      "states": [
+        1.0,
+        2.0
+      ]
+    },
+    "P501": {
+      "states": [
+        1.0,
+        2.0
+      ]
+    },
+    "P502": {
+      "states": [
+        1.0
+      ]
+    },
+    "P601": {
+      "states": [
+        1.0
+      ]
+    },
+    "P602": {
+      "states": [
+        1.0,
+        2.0
+      ]
+    },
+    "P603": {
+      "states": [
+        1.0
+      ]
+    }
+  },
+  "stage_dims": [
+    17,
+    90,
+    31,
+    39,
+    113,
+    7
+  ],
+  "total_binary_features": 297
+}

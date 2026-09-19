@@ -1,0 +1,17 @@
+ALRL V2 FIVE-FOLD SUMMARY
+=========================
+
+ fold  reused  best_epoch  accuracy  precision_macro  recall_macro  f1_macro  train_rows  val_rows  binary_features  trainable_parameters  selected_attack_ranges
+    0   False          48  0.992437         0.984927      0.986552  0.985444       37656      9388              298                117312                     173
+    1   False          48  0.991205         0.984023      0.983996  0.983798       37607      9437              298                117312                     173
+    2   False          49  0.992280         0.989663      0.981722  0.985295       37588      9456              297                117216                     172
+    3   False          42  0.990431         0.988005      0.975278  0.980902       37639      9405              297                117216                     172
+    4    True          43  0.993161         0.989038      0.984298  0.986352       37686      9358              298                117312                     173
+
+Accuracy mean±std: 0.991903 ± 0.001080
+Macro Precision mean±std: 0.987131 ± 0.002516
+Macro Recall mean±std: 0.982369 ± 0.004317
+Macro F1 mean±std: 0.984358 ± 0.002138
+
+KD disabled.
+V2 preprocessing refit independently inside each training fold.
